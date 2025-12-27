@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  // Remove 'output: export' for Vercel - it handles Next.js natively
+  // If you need static export for other platforms, use: output: process.env.NEXT_EXPORT ? 'export' : undefined,
   images: {
-    unoptimized: true,
+    unoptimized: false, // Vercel optimizes images automatically
   },
-  trailingSlash: true,
 };
 
 module.exports = nextConfig;
