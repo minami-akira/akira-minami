@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "Next.js",
     "React",
   ],
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
