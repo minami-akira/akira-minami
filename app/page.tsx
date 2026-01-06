@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["hero", "about", "experience", "skills", "projects", "certificates", "education", "contact"];
+      const sections = ["hero", "certificates", "about", "experience", "skills", "projects", "education", "contact"];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -46,11 +46,11 @@ export default function Home() {
         transition={{ duration: 0.5 }}
       >
         <Hero />
+        <Certificates />
         <About />
         <Experience />
         <Skills />
         <Projects />
-        <Certificates />
         <Education />
         <Contact />
       </motion.div>

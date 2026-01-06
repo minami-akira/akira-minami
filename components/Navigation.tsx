@@ -22,11 +22,11 @@ export default function Navigation({ activeSection }: NavigationProps) {
 
   const navItems = [
     { id: "hero", label: "Home" },
+    { id: "certificates", label: "Certificates" },
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
-    { id: "certificates", label: "Certificates" },
     { id: "education", label: "Education" },
     { id: "contact", label: "Contact" },
   ];

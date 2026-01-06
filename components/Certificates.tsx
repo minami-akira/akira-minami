@@ -17,13 +17,13 @@ const certificates: Certificate[] = [
     title: "Frontend Developer",
     issuer: "HackerRank",
     skills: ["React", "JavaScript", "CSS"],
-    link: "https://www.hackerrank.com",
+    link: "https://www.hackerrank.com/certificates/f35d0e88fe19",
   },
   {
     title: "Software Engineer",
     issuer: "HackerRank",
     skills: ["SQL", "REST API"],
-    link: "https://www.hackerrank.com",
+    link: "https://www.hackerrank.com/certificates/5a0cee7e1e54",
   },
 ];
 
